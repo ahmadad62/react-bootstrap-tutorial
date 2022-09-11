@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from "react-bootstrap/Button";
-import { Alert } from "react-bootstrap";
+// import Button from "react-bootstrap/Button";
+// import { Alert } from "react-bootstrap";
 import Contact from "./contact";
 
 function App() {
