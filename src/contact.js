@@ -13,7 +13,7 @@ function Contact() {
       <form
         style={formStyles}
         name="contact v2"
-        method="post"
+        method="POST"
         data-netlify="true"
       >
         <input type="hidden" name="forma-name" value="contact" />
