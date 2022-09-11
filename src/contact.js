@@ -11,8 +11,7 @@ function Contact() {
   return (
     <div className="Contact">
       <form style={formStyles} name="contact" action="/contact" method="post">
-        <input type="hidden" name="format-name" value="contact" />
-        <input type="hidden" name="from-name" value="contact" />
+        <input type="hidden" name="forma-name" value="contact" />
         <input required type="text" name="name" placeholder="Your Name" />
         <input required type="email" name="email" placeholder="Your Email" />
         <textarea
