@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <div className="Contact">
-      <form style={formStyles} name="contact" action="/contact" method="post">
+      <form style={formStyles} name="contact" action="/thankyou" method="post">
         <input type="hidden" name="forma-name" value="contact" />
         <input required type="text" name="name" placeholder="Your Name" />
         <input required type="email" name="email" placeholder="Your Email" />
